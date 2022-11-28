@@ -91,19 +91,30 @@
                   {%- endif -%}
                 </a>
               </li>
+
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              {%- if site.enable_darkmode %}
+
+              <!-- Publications Manual Link -->
+              <li class="nav-item"><a class="nav-link" href="#pubid">publications</a></li>
+
+              <!-- Patents Manual Link -->
+              <li class="nav-item"><a class="nav-link" href="#patentid">patents</a></li>
+
+              <!-- CV Manual Link -->
+              <li class="nav-item"><a class="nav-link" href="https://drive.google.com/drive/folders/1NPKZn5x8jHYfU-wYGQLLbqznQ3rxOc5K?usp=sharing" target="_blank">cv</a></li>
+
+              <!-- {%- if site.enable_darkmode %} -->
 
               <!-- Toogle theme mode -->
-              <li class="toggle-container">
+              <!-- <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </button>
               </li>
-              {%- endif %}
+              {%- endif %} -->
             </ul>
           </div>
         </div>
