@@ -5,10 +5,20 @@
   abbr={ICDE'23},
   title={Towards Optimizing Storage Costs on the Cloud},
   author={Mukherjee*, Koyel and Shah*, Raunak and Saini, Shiv and Singh, Karanpreet and Khushi and Kesarwani, Harsh and Barnwal, Kavya and Chauhan, Ayush},
-  journal={In International Conference on Data Engineering (ICDE)},
+  journal={International Conference on Data Engineering (ICDE)},
   year={2023},
   abstract={We study the problem of optimizing data storage and access costs on the cloud while ensuring that the desired performance or latency is unaffected. We first propose an optimizer that optimizes the data placement tier (on the cloud) and the choice of compression schemes to apply, for given data partitions with temporal access predictions. Secondly, we propose a model to learn the compression performance of multiple algorithms across data partitions in different formats to generate compression performance predictions on the fly, as inputs to the optimizer. Thirdly, we propose to approach the data partitioning problem fundamentally differently than the current default in most data lakes where partitioning is in the form of ingestion batches. We propose access pattern aware data partitioning and formulate an optimization problem that optimizes the size and reading costs of partitions subject to access patterns. We study the various optimization problems theoretically as well as empirically, and provide theoretical bounds as well as hardness results. We propose a unified pipeline of cost minimization, called SCOPe that combines the different modules. We extensively compare the performance of our methods with related baselines from the literature on TPC-H data as well as enterprise datasets (ranging from GB to PB in volume) and show that SCOPe substantially improves over the baselines. We show significant cost savings compared to platform baselines, of the order of 50% to 83% on enterprise Data Lake datasets, ranging from terabytes to petabytes in volume.},
   pdf={https://drive.google.com/drive/folders/1kUs3BRHkX6ccS8YT4GMcZJsnYwaC6dpY?usp=sharing},
+  selected={true}
+}
+
+@article{shah2023,
+  abbr={IJCAI'23},
+  title={Weaver: Algorithmic Approaches for Visual Data Story Generation},
+  author={Shah, Raunak and Porwal, Vibhor and Mukherjee, Koyel and Narayanam, Ramasuri and Burhanuddin, Iftikhar and Vance, Jonathan and C.S., Meenakshi and Arasu, Rebin and Gadikoyila, Satya and Ninan, Aaron and Akarsh, Adit and Yadav, Aryan and Jindal, Nischay},
+  journal={Under Review at the International Joint Conference on Artificial Intelligence (IJCAI 2023)},
+  year={2023},
+  abstract={Visual data stories that help in conveying the insights in a coherent manner through a narrative visualization can lead to effective comprehension and decision making. This is often done manually, by domain experts or marketers, using self-service analytics tools. We present new algorithmic approaches to autonomically generate relevant and compelling visual data stories from data, by modelling the underlying problem in a novel graph-theoretic framework. In particular, we model data facts as nodes in a graph, with edges representing similarity between these data facts; and it captures the sequential information flow. We present new, systematic approaches for quantitative evaluation of data stories, based on graph-theoretic metrics. Our graph modelling and evaluation framework Weaver is generic, and can support both sequential data stories that are generated algorithmically, as well as a hierarchical structure of stories that allow incorporation of domain knowledge from experts. Moreover, Weaver allows tailoring of data stories to users’ queries. We study the problem theoretically, and provide efficient and scalable heuristics, in addition to an approximation guarantee. We also demonstrate the efficacy of our proposed approaches for data stories quantitatively, and discuss the results. We also demonstrate the efficacy of our proposed approaches for data stories quantitatively, and present results from a user study on qualitative evaluation of data stories versus baselines.},
   selected={true}
 }
 
