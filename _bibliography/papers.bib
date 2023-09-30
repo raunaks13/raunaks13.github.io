@@ -2,13 +2,24 @@
 ---
 
 @article{mukherjee2023,
+  abbr={SIGMOD'24},
+  title={R2D2: Reducing Redundancy and Duplication in Data Lakes},
+  author={Shah, Raunak and Mukherjee, Koyel and Tyagi, Atharv and Joshi, Dhruv and Mitra, Subrata and Bhosale, Shivam and Karnam, Sai},
+  journal={International Conference on Management of Data (SIGMOD)},
+  year={2024},
+  abstract={Enterprise data lakes often suffer from substantial amounts of duplicate and redundant data, with data volumes reaching the scale of terabytes to petabytes. This leads to both increased storage costs and unnecessarily high compute costs for the maintenance of these datasets. In this work we focus on identifying and reducing redundancy in enterprise data lakes by addressing the problem of "dataset containment". To the best of our knowledge, this is one of the first works that addresses table level containment at a large scale. To achieve this, we propose building a dataset containment graph in a scalable manner. Our three-step hierarchical pipeline, R2D2, efficiently identifies all instances of containment by progressively reducing the search space in the data lake via: (i) schema graph builder, (ii) statistical min-max pruning, and (iii) content level pruning. Next, we propose to reduce the storage and maintenance costs due to this redundancy in an optimal manner by deleting datasets, while keeping the customer experience unaffected. We provide an optimization formulation that takes a containment graph as input and identifies redundant datasets that can be deleted (and reconstructed on demand, if necessary), while minimizing the overall storage and access costs and respecting any latency constraints. In contrast to existing modified baselines that are inaccurate or take several days to run, our pipeline can process an enterprise customer data lake at the TB scale in approximately 5 hours, while computing a dataset containment graph that captures all existing containment relationships correctly with very few additional edges compared to the ground truth. We implement our system on Azure Databricks clusters using Apache Spark for enterprise data stored in ADLS Gen2, and on AWS clusters for open-source data. We present theoretical results as well as extensive empirical validation on both enterprise (scale of TB) and open-source datasets (scale of MBs - GBs), which showcases the effectiveness of our pipeline. We discuss important aspects for practical implementation such as dynamic updates of data, scalability and latency concerns, as well as data dependent access patterns. Additionally, we show how each component of our system substantially improves over existing baselines in terms of speed and accuracy of containment detection, as well as how we ensure cost reduction via data deletion.},
+  pdf={https://drive.google.com/drive/folders/1F12nAV25dFDdERSW8KxQ7o9TyjxjZMjh?usp=sharing},
+  selected={true}
+}
+
+@article{mukherjee2023,
   abbr={ICDE'23},
   title={Towards Optimizing Storage Costs on the Cloud},
   author={Mukherjee*, Koyel and Shah*, Raunak and Saini, Shiv and Singh, Karanpreet and Khushi and Kesarwani, Harsh and Barnwal, Kavya and Chauhan, Ayush},
   journal={International Conference on Data Engineering (ICDE)},
   year={2023},
   abstract={We study the problem of optimizing data storage and access costs on the cloud while ensuring that the desired performance or latency is unaffected. We first propose an optimizer that optimizes the data placement tier (on the cloud) and the choice of compression schemes to apply, for given data partitions with temporal access predictions. Secondly, we propose a model to learn the compression performance of multiple algorithms across data partitions in different formats to generate compression performance predictions on the fly, as inputs to the optimizer. Thirdly, we propose to approach the data partitioning problem fundamentally differently than the current default in most data lakes where partitioning is in the form of ingestion batches. We propose access pattern aware data partitioning and formulate an optimization problem that optimizes the size and reading costs of partitions subject to access patterns. We study the various optimization problems theoretically as well as empirically, and provide theoretical bounds as well as hardness results. We propose a unified pipeline of cost minimization, called SCOPe that combines the different modules. We extensively compare the performance of our methods with related baselines from the literature on TPC-H data as well as enterprise datasets (ranging from GB to PB in volume) and show that SCOPe substantially improves over the baselines. We show significant cost savings compared to platform baselines, of the order of 50% to 83% on enterprise Data Lake datasets, ranging from terabytes to petabytes in volume.},
-  pdf={https://drive.google.com/drive/folders/1kUs3BRHkX6ccS8YT4GMcZJsnYwaC6dpY?usp=sharing},
+  pdf={https://ieeexplore.ieee.org/document/10184773},
   selected={true}
 }
 
