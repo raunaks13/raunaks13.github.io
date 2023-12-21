@@ -24,7 +24,7 @@ Previously, I was a Research Associate II at the *Data-driven Systems, Insights,
 
 I received my undergraduate degree in Electrical Engineering from [IIT Kanpur](iitk.ac.in) in 2021. Earlier in 2019, I visited the [University of California, San Diego (UCSD)](https://jacobsschool.ucsd.edu/), where I worked on unsupervised vision-based depth estimation in driving scenes. I was advised by [Prof. Dinesh Bharadia](https://dineshb-ucsd.github.io/) and [Dr. Gaurav Bansal](https://www.linkedin.com/in/gaurav-bansal-0558596). 
 
-At college, I also co-founded and led the [IIT Kanpur Consulting Group](https://iitkconsult.org), where we helped social organizations and government entities leverage better insights from their data by applying machine learning techniques.
+At college, I also co-founded and led the [IIT Kanpur Consulting Group](https://iitkconsult.org), where we helped social organizations and government entities leverage better insights from their data through data science and machine learning.
 
 My CV can be found [here](https://drive.google.com/drive/folders/1NPKZn5x8jHYfU-wYGQLLbqznQ3rxOc5K?usp=sharing).
 
