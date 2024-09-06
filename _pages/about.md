@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Currently looking for full-time roles in the data/systems/ML space!
+Looking for full-time roles in the data/systems/ML space!
 
 I am currently in the final year of my Masters in Computer Science at the [University of Illinois, Urbana-Champaign](https://cs.illinois.edu/). I am advised by [Prof. Yongjoo Park](https://yongjoopark.com/), where I am working on developing an improved data storage format for LLMs.
 
