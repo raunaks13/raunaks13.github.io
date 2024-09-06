@@ -18,10 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+Currently looking for full-time roles in the data/systems/ML space!
 
-I am currently a Software Engineer Intern at [LanceDB](https://lancedb.com), helping to build the next generation data storage format for AI/ML workloads. I am working on the open source file format called Lance, built on top of Apache Arrow in Rust, specifically improving decompression and speed of full scans and random access to data.
+I am currently in the final year of my Masters in Computer Science at the [University of Illinois, Urbana-Champaign](https://cs.illinois.edu/). I am advised by [Prof. Yongjoo Park](https://yongjoopark.com/), where I am working on developing an improved data storage format for LLMs.
 
-I am also pursuing my Masters in Computer Science at the [University of Illinois, Urbana-Champaign](https://cs.illinois.edu/). I am advised by [Prof. Yongjoo Park](https://yongjoopark.com/). I have experience solving problems in various areas related to big data, machine learning, and systems. 
+I recently finished my summer internship as a Software Engineer Intern at [LanceDB](https://lancedb.com). A blog describing my experience and the work I did can be found [here](https://blog.lancedb.com/my-summer-internship-experience-at-lancedb-2/). I worked on the open source file format called Lance, built on top of Apache Arrow in Rust, designed as a next generation data format targeting AI/ML workloads. I specifically added features to improve decompression, the speed of full scans and random access to data.
 
 Previously, I was a Research Engineer II at the *Data-driven Systems, Insights, and Experiences Group* at [Adobe](https://research.adobe.com/research/) for 2 years, where I designed and implemented solutions to reduce storage/compute costs, improve data management & governance, and optimize the performance of data-driven systems in Adobe's Experience Platform. This involved working with data at large scales (TBs-PBs) and applying ML and data analytics on enterprise customer data and system level metrics. My primary advisors at Adobe were [Dr. Koyel Mukherjee](https://in.linkedin.com/in/koyel-mukherjee-7b47024) and [Dr. Shiv Kumar Saini](https://in.linkedin.com/in/shiv-saini-696ab86).
 
