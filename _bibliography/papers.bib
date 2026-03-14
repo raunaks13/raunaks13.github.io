@@ -1,6 +1,18 @@
 ---
 ---
 
+@article{shah2026qstore,
+  abbr={VLDB'26},
+  title={QStore: Quantization-Aware Compressed Model Storage},
+  author={Shah, Raunak and Li, Zhaoheng and Park, Yongjoo},
+  journal={International Conference on Very Large Data Bases (VLDB)},
+  year={2026},
+  abstract={Modern applications commonly leverage large, multi-modal foundation models. These applications often feature complex workflows that demand the storage and usage of similar models in multiple precisions. A straightforward approach is to maintain a separate file for each model precision (e.g., INT8, BF16), which is indeed the approach taken by many model providers such as HuggingFace and Ollama. However, this approach incurs excessive storage costs since a higher precision model (e.g., BF16) is a strict superset of a lower precision model (e.g., INT8) in terms of information. Unfortunately, simply maintaining only the higher-precision model and requiring every user to dynamically convert the model precision is not desirable because every user of lower precision models must pay the cost for model download and precision conversion.
+In this paper, we present QStore, a unified, lossless compression format for simultaneously storing a model in two (high and low) precisions efficiently. Instead of storing low-precision and high-precision models separately, QStore stores low-precision model and only the residual information needed to reconstruct high-precision models. The size of residual information is significantly smaller than the original high-precision models, thus achieving high savings in storage cost. Moreover, QStore does not compromise the speed of model loading. The low-precision models can be loaded quickly just like before. The high-precision models can also be reconstructed efficiently in memory by merging low-precision data and the residual with QStore's lightweight decoding logic. We evaluate QStore for compressing multiple precisions of popular foundation models, and show that QStore reduces overall storage footprint by up to 2.2x (45\% of the original size) while enabling up to 1.7x and 1.8x faster model saving and loading versus existing approaches.},
+  pdf={https://arxiv.org/pdf/2505.04081},
+  selected={true}
+}
+
 @article{mukherjee2023,
   abbr={SIGMOD'24},
   title={R2D2: Reducing Redundancy and Duplication in Data Lakes},

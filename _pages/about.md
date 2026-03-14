@@ -18,13 +18,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am currently in the final year of my Masters in Computer Science at the [University of Illinois, Urbana-Champaign](https://cs.illinois.edu/). I am advised by [Prof. Yongjoo Park](https://yongjoopark.com/), where I am working on developing an improved data storage format for LLM models.
+
+I like working on hard and impactful problems in the data/systems/ML space. I am currently working on optimizing the ML systems that power the multimodal, generative foundation models at Adobe.
+
+Prior to this, I graduated with an MSCS degree at the [University of Illinois, Urbana-Champaign](https://cs.illinois.edu/). I was advised by [Prof. Yongjoo Park](https://yongjoopark.com/), and worked on building an improved, quantization-aware data format to reduce model size and saving/loading time for foundation models.
 
 I recently finished my summer internship as a Software Engineer Intern at [LanceDB](https://lancedb.com). A blog describing my experience and the work I did can be found [here](https://blog.lancedb.com/my-summer-internship-experience-at-lancedb-2/). I worked on the open source file format called Lance, built on top of Apache Arrow in Rust, designed as a next generation data format targeting AI/ML workloads. I specifically added features to improve decompression, the speed of full scans and random access to data.
 
 Previously, I was a Research Engineer II at the *Data-driven Systems, Insights, and Experiences Group* at [Adobe](https://research.adobe.com/research/) for 2 years, where I designed and implemented solutions to reduce storage/compute costs, improve data management & governance, and optimize the performance of data-driven systems in Adobe's Experience Platform. This involved working with data at large scales (TBs-PBs) and applying ML and data analytics on enterprise customer data and system level metrics.
 
-I received my undergraduate degree in Electrical Engineering from [IIT Kanpur](iitk.ac.in) in 2021. Earlier in 2019, I visited the [University of California, San Diego (UCSD)](https://jacobsschool.ucsd.edu/), where I worked on deep learning for autonomous driving applications - more specifically, I worked on unsupervised pixel-level depth estimation in driving scenes. I was advised by [Prof. Dinesh Bharadia](https://dineshb-ucsd.github.io/) and [Dr. Gaurav Bansal](https://www.linkedin.com/in/gaurav-bansal-0558596). 
+I received my undergraduate degree in Electrical Engineering from [IIT Kanpur](iitk.ac.in) in 2021. Earlier in 2019, I visited the [University of California, San Diego (UCSD)](https://jacobsschool.ucsd.edu/), where I worked on deep learning for autonomous driving applications - more specifically, I worked on unsupervised pixel-level depth estimation in driving scenes. I was advised by [Prof. Dinesh Bharadia](https://dineshb-ucsd.github.io/) and [Dr. Gaurav Bansal](https://www.linkedin.com/in/gaurav-bansal-0558596).
 
 At college, I also co-founded and led the [IIT Kanpur Consulting Group](https://iitkconsult.org), where we helped social organizations and government entities leverage better insights from their data through data science and machine learning.
 
