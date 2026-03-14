@@ -19,19 +19,17 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I like working on hard and impactful problems in the data/systems/ML space. I am currently working on optimizing the ML systems that power the multimodal, generative foundation models at Adobe.
+I like working on hard and impactful problems in the data/systems/ML space. I am currently working on optimizing the ML systems that power the multimodal, generative foundation models at [Adobe Firefly](https://www.adobe.com/products/firefly.html).
 
-Prior to this, I graduated with an MSCS degree at the [University of Illinois, Urbana-Champaign](https://cs.illinois.edu/). I was advised by [Prof. Yongjoo Park](https://yongjoopark.com/), and worked on building an improved, quantization-aware data format to reduce model size and saving/loading time for foundation models.
+Prior to this, I graduated with an MSCS degree at the [University of Illinois, Urbana-Champaign](https://cs.illinois.edu/). I was advised by [Prof. Yongjoo Park](https://yongjoopark.com/), and worked on building an improved, quantization-aware data format to reduce model size and saving/loading time for foundation models. During my masters I also interned at [LanceDB](https://lancedb.com). A blog describing my experience and the work I did can be found [here](https://blog.lancedb.com/my-summer-internship-experience-at-lancedb-2/). I worked on the open source file format called Lance, built on top of Apache Arrow in Rust, designed as a next generation data format targeting AI/ML workloads. I specifically added features to improve decompression, the speed of full scans and random access to data.
 
-I recently finished my summer internship as a Software Engineer Intern at [LanceDB](https://lancedb.com). A blog describing my experience and the work I did can be found [here](https://blog.lancedb.com/my-summer-internship-experience-at-lancedb-2/). I worked on the open source file format called Lance, built on top of Apache Arrow in Rust, designed as a next generation data format targeting AI/ML workloads. I specifically added features to improve decompression, the speed of full scans and random access to data.
-
-Previously, I was a Research Engineer II at the *Data-driven Systems, Insights, and Experiences Group* at [Adobe](https://research.adobe.com/research/) for 2 years, where I designed and implemented solutions to reduce storage/compute costs, improve data management & governance, and optimize the performance of data-driven systems in Adobe's Experience Platform. This involved working with data at large scales (TBs-PBs) and applying ML and data analytics on enterprise customer data and system level metrics.
+Previously, I was a Research Engineer at the *Data-driven Systems, Insights, and Experiences Group* at [Adobe](https://research.adobe.com/research/) for 2 years, where I worked on reducing storage and compute costs, by using intelligent algorithms and ML for dynamic deduplication, load balancing, and storage tiering (Spark/Scala/Python). This involved working with enterprise customer data at large scales (TBs-PBs) and processing system level metrics.
 
 I received my undergraduate degree in Electrical Engineering from [IIT Kanpur](iitk.ac.in) in 2021. Earlier in 2019, I visited the [University of California, San Diego (UCSD)](https://jacobsschool.ucsd.edu/), where I worked on deep learning for autonomous driving applications - more specifically, I worked on unsupervised pixel-level depth estimation in driving scenes. I was advised by [Prof. Dinesh Bharadia](https://dineshb-ucsd.github.io/) and [Dr. Gaurav Bansal](https://www.linkedin.com/in/gaurav-bansal-0558596).
 
 At college, I also co-founded and led the [IIT Kanpur Consulting Group](https://iitkconsult.org), where we helped social organizations and government entities leverage better insights from their data through data science and machine learning.
 
-My CV can be found [here](https://drive.google.com/drive/folders/1NPKZn5x8jHYfU-wYGQLLbqznQ3rxOc5K?usp=sharing). Feel free to reach out for any discussions or collaborations.
+My Google Scholar can be found [here](https://scholar.google.com/citations?user=r-YWPZkAAAAJ&hl=en&oi=ao). Feel free to reach out for any discussions, collaborations, or opportunities.
 
 <!-- Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
